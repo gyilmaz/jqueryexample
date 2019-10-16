@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <meta name="NewWebsite" content=" HTML5 Example">
+  <meta name="Guven" content="NewWebsite">
+  <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="container">
+  <header >
+        <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="/about.html">About</a></li>
+                </ul>
+            </nav>
+      <div><img src="logo.png" class="bordered-image" style="inline-size: 20pc" style="image-rendering: auto"/></div>
+      <div>This is a trial website</div>
+    
+  </header>
+
+  <section id="main">
+      <p> In this <em>example</em> , we will list of <a href="http://github.com">GitHub</a> projects 
+        <span> and the data</span> about the <strong> those projects </strong>. </p>
+        <form  method="POST" class="bordered-image simple-form" id="gitHubSearchForm">
+            <label for="searchPhrase" > Search Phrase</label>
+            <input type="text" name="searchPhrase" id="searchPhrase"/> <br/>
+            <label for="useStars">Use stars?</label>
+            <input type="checkbox" name="useStars" id="useStars" /> <br/>
+            <label for="langChoice" >Language: </label> 
+            <select name="langChoice" id="langChoice">
+                <option >All</option>
+                <option >JavaScript</option>
+                <option selected>Java</option>
+                <option>Ruby</option>
+                <option>C#</option>
+            </select>
+            <br/>
+            <input type="submit" value="search"/> <br/>
+        </form>
+        <div id="results" class="bordered-image">
+            <button id="toggleButton"> Hide </button>
+            <div id="resultList"> This is where results live </div>
+        </div>
+  </section>
+  <footer>
+        &copy; 2019 Guven Yilmaz
+    </footer>
+    </div>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,85 @@
+/* site.css */
+header, footer {
+    background-color: lightgray ;
+    border: solid 1px black; 
+    font-family:'Times New Roman', Times, serif;
+ }
+
+ footer {
+     padding: 10px; 
+     border-radius: 3px;
+ }
+
+ body {
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 14px; 
+     background-color: rgb(221, 89, 12);
+ }
+ a {
+   color: rgb(221, 89, 12);
+ }
+ .bordered-image{
+     border: solid 1px #444; 
+ }
+
+ #main {
+     border: solid 1px #ccc; 
+     border-radius: 5px; 
+     color: #202220;
+     margin: 20px 0; 
+     padding: 5px;
+ }
+ #results{
+    padding: 2px; 
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+ }
+ .simple-form  {
+    padding: 2px; 
+    width: 200px; 
+    display: inline-block;
+    vertical-align: top;
+
+}
+.simple-form label {
+     font-weight: bold; 
+}
+
+.simple-form input [type=text],
+.simple-formselect, 
+.simple-form input[type=password],
+.simple-form textarea {
+    width: 150px;
+}
+
+.simple-form input[type=submit]{
+    background-color: orange; 
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 5px;
+}
+.container{
+    width: 989px;
+    margin: 0 auto ;
+    background-color: aliceblue; 
+    padding: 5px;
+}
+
+header nav{
+    margin-right: 5px;
+    float: right;
+}
+header nav li {
+    display: inline;
+    font-size: 12px;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+.result .title {
+    font-weight: bold; 
+}
